@@ -1,0 +1,27 @@
+# Terraform
+**/.terraform/
+**/.terraform.lock.hcl
+**/terraform.tfstate
+**/terraform.tfstate.backup
+**/*.tfvars
+**/.terraformrc
+**/terraform.rc
+
+# SSH Keys - NEVER commit private keys
+*.pem
+*.key
+*.ppk
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
